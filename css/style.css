@@ -40,9 +40,9 @@ padding:0 10px 0 10px;
 
 section{
     background-image: url(../assets/hero_section.jpg);
-    padding: 200px 0px 500px 30px;
+    padding: 180px 0px 330px 30px;
     background-size: 1920px 1080px;
-    background-position: 0px 0px 0px 0px;
+    background-position: 10% 12%;
 }
 
 section h1{
@@ -54,6 +54,21 @@ section p{
     font-optical-sizing: auto;
 }
 
+/* INI CAROUSEL */
+
+.carousel-inner{
+  display: flex;
+  padding: 30px 100px 30px 100px;
+}
+.carousel-inner img{
+  width: 100px;
+  height:600px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* INI AKHIR CAROUSEL */
+
 .menu .card{
     border-radius: 15px;
     margin-left: 20px;
@@ -62,7 +77,6 @@ section p{
 .card img{
     width: 18rem;
     height: 18rem;
-    
     border-radius: 10px;
     margin-top: 20px;
     margin-left: 15px;
