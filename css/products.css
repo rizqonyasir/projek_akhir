@@ -1,0 +1,43 @@
+.container-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body{
+    margin-left: 20px;
+
+}
+
+.container-card2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card h3{
+    font-family: Ranille;
+}
+.card{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card img{
+    margin-bottom: 20px;
+}
+
+.color-picker{
+    display: flex;
+}
+
+.color-picker img{
+width: 20px;
+height: 20px;
+}
+
+.color-picker img:hover{
+    transform: scale(2);
+    transition: ease-in 0.3s;
+    
+}

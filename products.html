@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -20,13 +22,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <script src="js/main.js"></script>
+    
 </head>
+
 <body>
     <!-- INI AWAL NAVBAR -->
     <nav style="background-color:#d4c9b4 ;" class="navbar navbar-expand-lg navbar-light ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img height="50px" width="50px" src="assets/logo.svg" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img height="50px" width="50px" src="assets/logo.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,23 +37,23 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#subscribe">Contact us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="https://wisatakita.com/wisata/">Products</a>
+                        <a class="nav-link active" href="#">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://wisatakita.com/wisata/">Categories</a>
+                        <a class="nav-link" href="payments.html">Payments</a>
                     </li>
                 </ul>
             </div>
             <div class="container-icon">
-                <a href=""><img src="assets/chat.svg" alt=""></a>
-                <a href=""><img src="assets/share_button.svg" alt=""></a>
-                <a href=""><img src="assets/wishlist.svg" alt=""></a>
+                <a href="#"><img src="assets/chat.svg" alt=""></a>
+                <a href="#"><img src="assets/share_button.svg" alt=""></a>
+                <a href="wishlist.html"><img src="assets/wishlist.svg" alt=""></a>
             </div>
         </div>
     </nav>
@@ -59,25 +62,169 @@
     <!-- INI CAROUSEL -->
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/nathan-fertig-FBXuXp57eM0-unsplash.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/martin-pechy-bpg-ngqrPc8-unsplash.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/hadi-yazdi-aznaveh-FoTZazW3WxY-unsplash.jpg" class="d-block w-100" alt="...">
-          </div>
+            <div class="carousel-item active">
+                <img src="assets/nathan-fertig-FBXuXp57eM0-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/martin-pechy-bpg-ngqrPc8-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/hadi-yazdi-aznaveh-FoTZazW3WxY-unsplash.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden"></span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
     <!-- INI AKHIR CAROUSEL -->
+
+    <!-- INI CARD -->
+    <div class="container-card">
+        <div class="card " style="width: 600px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img style="object-fit: cover;" src="assets/pickawood-rwa0Yh38FeA-unsplash.jpg"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Rack</h3>
+                        <p>The Multipurpose Multifunction Shelf is a practical and stylish storage solution for your home. Designed with high-quality materials, this shelf is not only strong and durable but also adds to the aesthetics of your room.</p>
+                        <h5 class="card-text">Price: $40</h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card " style="width: 600px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img style="object-fit: cover;" src="assets/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Couch</h3>
+                        <p>Add a touch of luxury and comfort to your living room with the Elegant 2-Seater Sofa. Crafted with a contemporary design that blends elegance and function, this sofa is the perfect choice for a variety of interior styles. Its soft cushions guarantee maximum comfort.</p>
+                        <h5 class="card-text">Price: 132$</h5>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-card2">
+        <div class="card" style="width: 600px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img style="object-fit: cover;" src="assets/sofa2.jpg"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Couch 3 seater</h3>
+                        <p>Modern Design: A minimalist style with clean lines that lends itself to different types of décor.<br>
+                            Maximum Comfort: Equipped with high quality foam and soft fabric cover.</p>
+                        <h5 class="card-text">Price: $210</h5>
+                        <div class="color-picker">
+                            <a href="">
+                                <img src="assets/blue.svg" alt=""> 
+                            </a>
+                            <a href="">
+                                <img src="assets/red.svg" alt=""> 
+                            </a>
+                            <a href="">
+                                <img src="assets/lime.svg" alt=""> 
+                            </a>
+                            <a href="">
+                                <img src="assets/yellow.svg" alt=""> 
+                            </a>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 600px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img style="object-fit: cover;" src="assets/christopher-jolly-GqbU78bdJFM-unsplash.jpg"
+                        class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title">Bed</h3>
+                        <p>Enjoy quality sleep with the ComfortSleep Premium Mattress, specially designed to provide optimal comfort and support your spinal health.</p>
+                        <h5 class="card-text">Price: 169$</h5>
+                        <div class="color-picker">
+                            <a href="">
+                                <img style="box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;" src="assets/white.svg" alt=""> 
+                            </a>
+                            <a href="">
+                                <img src="assets/black.svg" alt=""> 
+                            </a>
+                            <a href="">
+                                <img src="assets/brown.svg" alt=""> 
+                            </a>
+                            <a href="">
+                                <img src="assets/grey.svg" alt=""> 
+                            </a>
+                            
+
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- INI AKHIR CARD -->
+    <!-- INI FOOTER -->
+    <footer>
+        <div style="background-color: rgb(20, 20, 20);" class="container-footer ">
+            <div class="hello">
+                <h5>SAY HELLO</h5>
+                <p>if you are interested in working with us or just want to say hello simply drop us a line!<br><b
+                        style="color: azure;">muhammadrizqonyasir@gmail.com</b></p>
+            </div>
+
+            <div id="subscribe">
+                <h5>SUBSCRIBE US</h5>
+                <a href="https://www.instagram.com/ims.cfieaisy/"><img src="assets/instagram.svg" alt=""></a>
+                <a href="https://www.instagram.com/ayuuuu29_/?utm_source=ig_web_button_share_sheet"><img
+                        src="assets/instagram.svg" alt=""></a>
+                <a href="https://www.instagram.com/sabrrnanr/?utm_source=ig_web_button_share_sheet"><img
+                        src="assets/instagram.svg" alt=""></a>
+                <a href="https://www.instagram.com/rizqonyasir/"><img src="assets/instagram.svg" alt=""></a>
+                <a href="https://github.com/rizqonyasir/projek_akhir.git"><img src="assets/github.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div style="background-color: rgb(69, 69, 69);" class="copyright">
+            <h2>Raveling</h2>
+            <p>&copy; 2024 Raveling. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- INI AKHIR FOOTER -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.min.js"></script>
+<script>
+  var myCarousel = document.querySelector('#carouselExampleFade');
+  var carousel = new bootstrap.Carousel(myCarousel, {
+    interval:2000, 
+    ride:'carousel'
+  });
+
+  alert("Welcome to Products page")
+</script>
+
 </body>
+
 </html>
