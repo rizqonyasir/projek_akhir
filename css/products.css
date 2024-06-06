@@ -1,4 +1,5 @@
 .container-card{
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
 }
